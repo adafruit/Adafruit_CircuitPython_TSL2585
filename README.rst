@@ -94,7 +94,19 @@ Usage Example
 
 .. code-block:: python
 
+    import time
+    import board
     import adafruit_tsl2585
+
+    i2c = board.I2C()
+    sensor = adafruit_tsl2585.TSL2585(i2c)
+
+    while True:
+        if sensor.data_ready:
+            data = sensor.measurement
+            print(f"Photopic: {data.photopic}, IR: {data.infrared}, UVA: {data.uva}")
+            print()
+        time.sleep(0.5)
 
 Documentation
 =============
