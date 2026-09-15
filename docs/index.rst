@@ -24,14 +24,12 @@ Table of Contents
 .. toctree::
     :caption: Tutorials
 
-.. todo:: Add any Learn guide links here. If there are none, then simply delete this todo and leave
-    the toctree above for use later.
+    Adafruit TSL2585 Digital UVA and Ambient Light Sensor Learn Guide <https://learn.adafruit.com/adafruit-tsl2585-digital-uva-and-ambient-light-sensor>
 
 .. toctree::
     :caption: Related Products
 
-.. todo:: Add any product links here. If there are none, then simply delete this todo and leave
-    the toctree above for use later.
+    Adafruit TSL2585 Digital UVA and Ambient Light Sensor - STEMMA QT <https://www.adafruit.com/product/6524>
 
 .. toctree::
     :caption: Other Links
